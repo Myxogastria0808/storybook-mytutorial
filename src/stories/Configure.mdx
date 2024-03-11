@@ -1,0 +1,24 @@
+import { Meta } from '@storybook/blocks';
+import Image from 'next/image';
+
+<Meta title="Configure your project" />
+
+<h1 className="title">Hello, Storybook!</h1>
+
+<Image
+    src={'./assets/pexels-asad-photo-maldives-457881.jpg'}
+    width={0}
+    height={0}
+    sizes="100vw"
+    style={{ width: '100%', height: 'auto' }}
+    alt={'stableDiffusion4R_API'}
+/>
+
+<style>
+    {`
+    .title {
+      text-align: center;
+      font-size: 30px;
+    }
+  `}
+</style>
